@@ -1,0 +1,73 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background: #444;
+  position: sticky;
+  transition: top 1s ease-out;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+nav a {
+  color: #AAA;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+nav a:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+}
+section {
+  min-height: 70vh;
+  padding: 3em;
+  transition: all 1s linear;
+}
+
+.deel {
+  padding: 30vh 3em;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 0 0 3px black;
+  overflow-x: hidden;
+}
+
+.deel--2 {
+  background-image: url("https://www.esportspedia.com/streamers/thumb.php?f=Tyler1_2019.jpg&width=1200");
+}
+
+.deel--4 {
+  background-image: url("https://exp.gg/wp-content/uploads/2018/07/tyler1.jpg");
+}
+
+.deel--6 {
+  background-image: url("https://i.pinimg.com/originals/a9/24/3e/a9243e52c50a840e29745dec13f09f01.jpg");
+}
+
+.accent {
+  color: White;
+  background-color: #db355e;
+}
+
+#voortgang {
+  position: fixed;
+  bottom: 0;
+  height: 5px;
+  background-color: gold;
+}
